@@ -1,6 +1,6 @@
 using Serilog;
 
-var builder = WebApplication.CreateBuilder(args);
+var builder = global::Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
